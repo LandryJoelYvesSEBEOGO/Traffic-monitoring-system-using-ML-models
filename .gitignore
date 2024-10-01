@@ -1,0 +1,26 @@
+/.ipynb_checkpoints
+/Adaboost ROC.png
+/Adaboost.png
+/CM decisoontree.png
+/CM KNN.png
+/CM random.png
+/CM svm.png
+/Computer_vIsion_project_.ipynb
+/computer_vision_project_.py
+/dataset_images
+/dataset_images.zip
+/essai.py
+/Pixel value.png
+/RCO Random.png
+/ROC DecisionTrees.png
+/ROC KNN.png
+/ROC svm.png
+/Sift features.png
+/sift_features.npy
+/svm
+/test_histograms.csv
+/test_histograms.npy
+/test_histograms.pkl
+/test_labels.pkl
+/train_histograms.pkl
+/train_labels.pkl
