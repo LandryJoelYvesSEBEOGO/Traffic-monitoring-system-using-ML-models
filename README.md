@@ -33,14 +33,7 @@ The goal of this project is to analyze traffic video frames using computer visio
 - `train_labels.pkl`: Pickle file containing the train labels.
 - `test_labels.pkl`: Pickle file containing the test labels.
 
-## Getting Started
-
-To get started with this project, you will need to have Jupyter Notebook and the required Python libraries installed. You can install the required libraries using pip:
-
-```sh
-pip install -r requirements.txt
-
- # 1. Video Data Preprocessing
+# 1. Video Data Preprocessing
 Annotation: Labeled road users in the video data for supervised learning.
 Fragmentation into frames: Converted video sequences into individual frames to facilitate frame-by-frame analysis.
 # 2. Feature Extraction
@@ -57,3 +50,13 @@ Accuracy: Assessed the correctness of predictions across the dataset.
 Area Under the Curve (AUC): Measured the classifier’s ability to distinguish between classes, providing insight into the model’s performance.
 # 6. Contribution to Traffic Monitoring
 Improved the understanding and application of traditional machine learning methods in the context of road user detection and traffic monitoring.
+
+
+## Getting Started
+
+To get started with this project, you will need to have Jupyter Notebook and the required Python libraries installed. You can install the required libraries using pip:
+
+```sh
+pip install -r requirements.txt
+
+ 
