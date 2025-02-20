@@ -1,6 +1,4 @@
-# Traffic-monitoring-system-using-Computer-Vision
-
-# Traffic Computer Vision Project
+# Traffic-monitoring-system-using-Classical Machine learning models
 
 This repository contains a draft notebook for traffic computer vision analysis. The project involves extracting features from traffic video frames, training various machine learning models, and evaluating their performance.
 
