@@ -1,5 +1,45 @@
 # Traffic-monitoring-system-using-Computer-Vision
 
+# Traffic Computer Vision Project
+
+This repository contains a draft notebook for traffic computer vision analysis. The project involves extracting features from traffic video frames, training various machine learning models, and evaluating their performance.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Models Implemented](#models-implemented)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Overview
+
+The goal of this project is to analyze traffic video frames using computer vision techniques and machine learning models. The project includes the following steps:
+1. Splitting video into frames.
+2. Loading and preprocessing the dataset.
+3. Extracting features using SIFT and pixel values.
+4. Training and evaluating various machine learning models.
+5. Comparing the performance of the models.
+
+## Repository Structure
+
+- `Traffic_Computer_Vision DRAFT.ipynb`: Jupyter notebook containing the draft of the traffic computer vision analysis.
+- `dataset_images/`: Directory containing the dataset images.
+- `test_histograms.pkl`: Pickle file containing the test histograms.
+- `train_histograms.pkl`: Pickle file containing the train histograms.
+- `train_labels.pkl`: Pickle file containing the train labels.
+- `test_labels.pkl`: Pickle file containing the test labels.
+
+## Getting Started
+
+To get started with this project, you will need to have Jupyter Notebook and the required Python libraries installed. You can install the required libraries using pip:
+
+```sh
+pip install -r requirements.txt
+
  # 1. Video Data Preprocessing
 Annotation: Labeled road users in the video data for supervised learning.
 Fragmentation into frames: Converted video sequences into individual frames to facilitate frame-by-frame analysis.
